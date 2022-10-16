@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap');
+*{margin: 0;padding: 0;font-family: 'Poppins',sans-serif;}
+ul{list-style-type: none;}
+body{font-family: 'Poppins',sans-serif;background-color: #F8F9FA;}
+.heading{background-color: #0ED746;height: 260px;padding-top: 66px;}
+.headinginner{max-width: 1175px;width: 98%;margin: 0 auto;}
+.headinginner h1{color: #ffff;font-size: 40px;}
+.headinginner h1 img{margin-left: 10px;vertical-align: top;}
+.search{max-width: 351px;width: 100%;display: flex;align-items: center;justify-content: space-between;background-color: #fff;border-radius: 0px 6px 6px 0px;border: 1px solid #323232;margin-top: 26px;}
+.search input[type="text"]{width: 100%;border: none !important;padding: 18px 12px;font-size: 19px;}
+.search input[type="text"]:focus-visible{border: none !important;outline: none !important;}
+.search img{margin-right: 18px;}
+.search input[type="text"]::-webkit-input-placeholder { /* Edge */
+    font-size: 19px;
+  }
+  
+  .search input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 19px;
+  }
+  
+  .search input[type="text"]::placeholder {
+    font-size: 19px;
+  }
+
+.referralTable{margin-top: -70px;}
+.referralTableInner{max-width: 1115px;margin: 0 auto;background-color: #fff;padding: 30px;border-radius: 6px;overflow-x: auto;width: 90%;}
+.referralHeader{display: flex;align-items: center;justify-content: space-around;}
+.referralHeader ul{display: flex;justify-content: space-between;}
+.referralHeader p{font-size: 20px;}
+.referralHeader ul li{margin-right: 40px;font-size: 20px;}
+.referralCard{display: flex;justify-content: space-between;margin-top: 30px;max-width: 1025px;}
+.personDetail{display: flex;align-items: center;}
+.img{width: 50px;height: 50px;margin-right: 10px;}
+.detail p{color: #323232;font-size: 18px;margin-bottom: 8px;}
+.detail span{font-size: 16px;color: #ccc;}
+.processProgress{display: flex;align-items: center;justify-content: space-between;}
+.processProgress span{display: flex;width: 30px;height: 30px;background-color:#0ED746;margin-right:50px;align-items: center;justify-content: center;border-radius: 100px;}
